@@ -270,6 +270,10 @@ nav {
 		width:100%;
 	}
 
+.aside_topic{
+	position: initial;
+}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 838px)
@@ -298,6 +302,11 @@ nav {
 	.dropdown {
 		width:100%;
 	}
+
+	.aside_topic{
+	position: initial;
+}
+
 }
 
 @media screen and (min-width: 839px) and (max-width: 1024px)
@@ -316,6 +325,11 @@ nav {
 		padding-left: 20%;
 		padding-right: 20%;
 	}
+
+	.aside_topic{
+	position: initial;
+}
+ 
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1150px)
@@ -333,9 +347,14 @@ nav {
 		padding-left: 24%;
 		padding-right: 20%;
 	}
+
+	.aside_topic{
+	position: initial;
+	}
+ 
 }
 
-@media screen and (min-width: 1151px)
+@media screen and (min-width: 1151px) and (max-width: 1232px)
 {
 	img.logo { 		 
 		width: 12%;
@@ -346,4 +365,21 @@ nav {
 		font-size: 40px;
 	}
 
+	.aside_topic{
+	position: initial;
+	}
+ 
+}
+
+@media screen and (min-width: 1233px)
+{
+	img.logo { 		 
+		width: 12%;
+	}
+	
+	.main_heading {
+		margin-left: 15	px;
+		font-size: 40px;
+	}
+	
 }
