@@ -8,6 +8,8 @@
   	  	The Content Teacher
   	  </title>
   	  <link href="style.css" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="jquery-3.2.1.js"></script>
+      <script type="text/javascript" src="event.js"></script>
   	  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
   	  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
     </head>
@@ -19,7 +21,7 @@
 	      </div>
    	  </header>
    	  <nav>
-    		<button class="dropbtn" onclick="location.href='hello.html'">Home</button>
+    		<button class="dropbtn" id="home_btn">Home</button>
     		<div class="dropdown">
    	    	<button class="dropbtn">Information</button>
   					<div class="dropdown-content">
@@ -28,7 +30,7 @@
     					<a href="http://www.viralnova.com/">ViralNova</a>
     				</div>
     		</div>
-    		<button class="dropbtn">Register</button>
+    		<button class="dropbtn" id="reg_drpbtn">Register</button>
     		<button class="dropbtn">Contact</button>	
    	  </nav>
     <div id="home_content">
@@ -90,12 +92,18 @@
       	</div>
       </div>
     </div>
-      <div id="reg_form">
-        <form id="reg">
-          <input type="text" class="regin_form" name="first_name"><br>
-          <input type="text" class="regin_form" name="last_name"><br>
-          <input type="email" class="regin_form" name="email_id"><br>
-          <input type="password" class="regin_form" name="password"><br>
+      <div id="reg_form" class="display_flex">
+        <form id="reg" class="display_flex" method="POST">
+         <h2 class="reg_head"> Register here. </h2>
+          <input type="text" class="regin_form" name="first_name" placeholder="First Name" required="name">
+          <input type="text" class="regin_form" name="last_name" placeholder="Last Name" required="name">
+          <input type="email" class="regin_form" name="email_id" placeholder="Email id" required="email">
+          <input type="password" class="regin_form" name="password" placeholder="Password" required="password">
+          <select class="regin_form" required="">
+            <option value="" disabled="" selected="" hidden="">Sex</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
           <input type="submit" id="reg_btn" value="Create an Account">
         </form>
       </div>
