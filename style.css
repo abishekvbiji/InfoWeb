@@ -274,6 +274,10 @@ nav {
 	position: initial;
 }
 
+#footer_cpyright{
+	font-size: 12px;
+}
+
 }
 
 @media screen and (min-width: 481px) and (max-width: 838px)
@@ -307,6 +311,10 @@ nav {
 	position: initial;
 }
 
+#footer_cpyright{
+	font-size: 13px;
+}
+
 }
 
 @media screen and (min-width: 839px) and (max-width: 1024px)
@@ -330,6 +338,10 @@ nav {
 	position: initial;
 }
  
+ #footer_cpyright{
+	font-size: 14px;
+}
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1150px)
@@ -352,6 +364,10 @@ nav {
 	position: initial;
 	}
  
+  #footer_cpyright{
+	font-size: 14px;
+	}
+
 }
 
 @media screen and (min-width: 1151px) and (max-width: 1232px)
@@ -369,6 +385,10 @@ nav {
 	position: initial;
 	}
  
+  #footer_cpyright{
+	font-size: 14px;
+	}
+
 }
 
 @media screen and (min-width: 1233px)
