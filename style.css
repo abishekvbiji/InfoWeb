@@ -294,6 +294,12 @@ select{
 	background-color: white;
 }
 
+.radio_btn{
+	width: 10%;
+	height: 20px;
+	align-items: left;
+}
+
 @media screen and (min-width: 320px) and (max-width: 480px)
 {
 
