@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Abishek">
+    <title>
+        The Content Teacher
+    </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img class="logo" src="https://engineering.dartmouth.edu/styleguide/web/png/shield/ThayerShield_Green.png">
+            <h1 class="main_heading"> The Content Teacher </h1>
+        </div>
+    </header>
+    <nav class="display_flex">
+        <div class="container">
+            <ul id="un_list">
+                <li class="dropbtn active">
+                    <a id="home_btn" href="hello.html"> Home</a>
+                </li>
+                <li class="dropdown dropbtn">Information
+                    <div class="dropdown-content">
+                        <a href="http://www.buzzfeed.com/">BuzzFeed</a>
+                        <a href="http://www.upworthy.com/">UpWorthy</a>
+                        <a href="http://www.viralnova.com/">ViralNova</a>
+                    </div>
+                </li>
+                <li class="dropbtn">
+                    <a href="register.html" class="nav_btn"> Register</a></li>
+                <li class="dropbtn">Contact</li>
+            </ul>
+        </div>
+    </nav>
+    <div id="reg_form" class="display_flex">
+        <!-- Registration form body -->
+        <form id="reg" class="display_flex" method="POST">
+            <!-- Registration form div -->
+            <h2 class="reg_head"> Register here. </h2>
+            <input type="text" class="regin_form" name="first_name" placeholder="First Name" required="name">
+            <input type="text" class="regin_form" name="last_name" placeholder="Last Name" required="name">
+            <input type="email" class="regin_form" name="email_id" placeholder="Email id" required="email">
+            <input type="password" class="regin_form" name="password" placeholder="Password" required="password"><br>
+            <input type="radio" class="regin_form radio_btn" name="gender" value="Male" checked="" style="margin-left: 25%;">Male
+            <input type="radio" class="regin_form radio_btn" name="gender" value="Female">Female<br>
+            <select class="regin_form" required="">
+            <option value="" disabled="" selected="" hidden="">Proficiency Level</option>
+            <option value="Novice">Novice</option>
+            <option value="Intermediate">Intermediate</option>
+            <option value="Advanced">Advanced</option>
+            <option value="Expert">Expert</option>
+          </select>
+            <input type="submit" id="reg_btn" value="Create an Account">
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer_child">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8c/Facebook_Home_logo_old.svg/1024px-Facebook_Home_logo_old.svg.png" width="23" height="23" class="footer_img" alt="Join our Facebook page! (267k)" onclick="location.href='http://www.facebook.com'" ">
+          	<img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/944px-Twitter_bird_logo_2012.svg.png " width="23 " height="23 " class="footer_img " onclick="location.href='http://www.twitter.com' "">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Google_Plus_logo_2015.svg/2000px-Google_Plus_logo_2015.svg.png" width="23" height="23" class="footer_img" onclick="location.href='https://plus.google.com/'">
+            </div>
+            <div class="footer_child" id="footer_cpyright">© QBurst 2017. All Rights Reserved. Privacy & Cookies Policy
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
