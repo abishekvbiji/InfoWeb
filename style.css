@@ -303,9 +303,6 @@ select {
         font-size: 25px;
         display: block;
     }
-    nav {
-        background-color: #333;
-    }
     .dropbtn {
         display: block;
         width: 100%;
@@ -337,9 +334,6 @@ select {
         margin-left: 5px;
         font-size: 25px;
         display: block;
-    }
-    nav {
-        background-color: #333;
     }
     .dropbtn {
         display: block;
